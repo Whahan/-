@@ -1,0 +1,152 @@
+## LICENSE : GPL 2
+Copyright (C) cosmosproject15@gmail.com  
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the Free
+Software Foundation; either version 2 of the License, or (at your option)
+any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
+more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+Tue, 28 Jan 2020 06:25:24 +0900
+
+	1. 버전 설명 및 프로그램 실행 설명 추가 ( --help )
+	2. 시작시 파라미터 추가 (출력 량 및 사전 조합 생성 개수 설정 가능)
+	3. 확률 순위 출력 
+
+Sat, 30 Nov 2019 18:54:38 +0900
+
+	1. Source update (dateproc.py) : 고.저 반영 두배로 늘림
+
+Thu, 20 Feb 2020 18:41:07 +0900
+
+	1. 임시 파일을 ' /tmp ' 경로로 재 지정
+
+Sat, 22 Feb 2020 19:19:58 +0900
+
+	1. 2진수 연산 도입
+	2. 반자동 출력 선택 도입
+
+Sat, 21 Mar 2020 18:45:51 +0900 (0.1-6)
+
+	1. 사전 조합 생성 구조 알고리즘 변경 = 출력 당 확률 재 편성 하여 사전 조합
+	2. 반자동 출력 알고리즘 변경
+	
+Sun, 05 Apr 2020 04:03:39 +0900 (0.1-7)
+
+	1. 달력, 음력 도입 
+	
+Sat, 11 Apr 2020 18:12:14 +0900 (0.1-8)
+
+	1. 테스트 기능 도입
+	
+Sat, 18 Apr 2020 18:07:24 +0900 (0.1-9)
+
+	1. 주역 숫자 적용 도입
+	2. 반자동 미출력 픽스 
+	
+Sat, 02 May 2020 01:59:12 +0900
+
+	1. 의존성 추가 : pip3 install  korean_lunar_calendar
+
+Sat, 16 May 2020 18:10:05 +0900
+
+	1. 빠른 연산을 위한 소스 업그레이드
+	2. 단수 분석 도입
+	3. 문답성 도입
+	4. 옵션 파일 적용 도입
+	5. see_strong 버그수정
+	
+Sun, 17 May 2020 03:20:02 +0900
+
+	1. 옵션 적용 버그 픽스
+	2. 정렬 문제 버그 픽스
+	3. 중복 출현 문제 버그 픽스
+	
+Sat, 04 Jul 2020 05:45:49 +0900 (0.1-15)
+
+	1. 이진수 분석 삭제
+	2. 확률 계산 균형과 이전 출현 번호 확률 증가 
+	3. 치명적 계산 오류 수정
+	
+Sat, 01 Aug 2020 15:45:10 +0900 (0.1-16)
+
+	1. 미출현번호 내림차순 설정
+	2. 번호 연산 순위 내림차순 설정
+	3. 중점적인 연산 문제 수정 
+
+Sat, 08 Aug 2020 17:59:31 +0900 (0.1-17)
+
+	1. 연산 출력 방식 개선
+	2. 자동 옵션 파일 작성 도입
+	3. 연산된 모든 리스트 테스트 가능
+
+Sat, 08 Aug 2020 19:47:34 +0900 (0.1-18)
+
+	1. 치명적 중복 프린트 수정
+	
+Sat, 15 Aug 2020 16:44:00 +0900 (0.1-19)
+
+	1. 기초 연산 소스 업그레이드
+
+Mon, 17 Aug 2020 02:36:36 +0900 (0.1-2)
+
+	1. 중복 출현과 정렬 문제 수정 
+
+Sat, 29 Aug 2020 18:10:16 +0900 (0.1-21)
+
+	1. 리스트 연산에 자동 멀티 프로세싱 도입
+	2. 총 연산에 걸린 시간 도입 
+	3. 연산 최적화
+	
+Sat, 19 Sep 2020 06:56:02 +0900 (0.1-22)
+
+	1. 번호순 내림차 정렬 도입
+	2. 전반적인 번호뽑기 코드 수정 
+	3. 의존성 패키지 lynx 추가 
+
+Sat, 03 Oct 2020 06:06:19 +0900 (0.1-25)
+
+	1. 연산 소스 업그레이드 
+	2. 옵션 파일 저장 방식 병경
+
+Sun, 31 Jan 2021 04:59:31 +0900 (0.1-24)
+
+	1. 추출 방식 개선 
+
+Sun, 21 Feb 2021 18:38:51 +0900 (0.1-25)
+
+	1. 추출 방식 개선
+	2. 연산 평준화 도입
+	3. 연산 방법 개선
+	4. 불필요 코드 제거
+	5. 출력 코드 간결화
+
+Sat, 20 Mar 2021 17:02:50 +0900 (0.1-26)
+
+	1. 검색 반영 (github.io)  도입 
+	2. 기초 난수 평준화 도입
+	3. 출력 개선 
+
+Sat, 10 Jul 2021 18:08:05 +0900
+
+	1. 평준화 제거
+	2. 미출현 번호 출현 구역 기반으로 추천 번호 획득
+
+Sat, 31 Jul 2021 17:44:06 +0900
+
+	1. 뽑기에 범위수 반영 
+	2. 주석 업그레이드
+	3. 반자동 기본 4개 제공으로 변경
+
+Mon, 30 Aug 2021 06:08:43 +0900
+
+	1. 버그 수정 및 최적화 
+	2. 매치 포인트 연산 도입
